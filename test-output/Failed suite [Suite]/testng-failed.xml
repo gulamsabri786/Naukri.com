@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]">
+  <test thread-count="5" name="Test(failed)(failed)">
+    <classes>
+      <class name="Testscripts.EducationTest">
+        <methods>
+          <include name="Education"/>
+          <include name="closeApplication"/>
+          <include name="openAppication"/>
+        </methods>
+      </class> <!-- Testscripts.EducationTest -->
+      <class name="Testscripts.ProfileTest">
+        <methods>
+          <include name="profile"/>
+          <include name="closeApplication"/>
+          <include name="openAppication"/>
+        </methods>
+      </class> <!-- Testscripts.ProfileTest -->
+      <class name="Testscripts.KeySkillTest">
+        <methods>
+          <include name="closeApplication"/>
+          <include name="openAppication"/>
+          <include name="keySkillTest"/>
+        </methods>
+      </class> <!-- Testscripts.KeySkillTest -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

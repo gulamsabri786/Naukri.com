@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">8</td><td class="num">0</td><td class="num attn">2</td><td class="num">607,284</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Testscripts.AddingNumberTest</td><td><a href="#m0">numberadding</a></td><td rowspan="1">1529915697308</td><td rowspan="1">53500</td></tr><tr class="failedodd"><td rowspan="1">Testscripts.ProfileTest</td><td><a href="#m1">profile</a></td><td rowspan="1">1529915900108</td><td rowspan="1">44323</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Testscripts.BUploadTest</td><td><a href="#m2">uploadingCV</a></td><td rowspan="1">1529915768863</td><td rowspan="1">48229</td></tr><tr class="passedodd"><td rowspan="1">Testscripts.CompanyFollowTest</td><td><a href="#m3">followingCompanyProfile</a></td><td rowspan="1">1529915964042</td><td rowspan="1">27957</td></tr><tr class="passedeven"><td rowspan="1">Testscripts.DeleteResumeTest</td><td><a href="#m4">resumeDeletion</a></td><td rowspan="1">1529916008228</td><td rowspan="1">52623</td></tr><tr class="passedodd"><td rowspan="1">Testscripts.EducationTest</td><td><a href="#m5">Education</a></td><td rowspan="1">1529916079013</td><td rowspan="1">40584</td></tr><tr class="passedeven"><td rowspan="1">Testscripts.KeySkillTest</td><td><a href="#m6">keySkillTest</a></td><td rowspan="1">1529915532884</td><td rowspan="1">34850</td></tr><tr class="passedodd"><td rowspan="1">Testscripts.LoginTest</td><td><a href="#m7">Login</a></td><td rowspan="1">1529915587168</td><td rowspan="1">29447</td></tr><tr class="passedeven"><td rowspan="1">Testscripts.PageTest</td><td><a href="#m8">testproject</a></td><td rowspan="1">1529915836220</td><td rowspan="1">46672</td></tr><tr class="passedodd"><td rowspan="1">Testscripts.QDeletePhotoTest</td><td><a href="#m9">deletePhoto</a></td><td rowspan="1">1529915635555</td><td rowspan="1">44339</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">Testscripts.AddingNumberTest#numberadding</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Pass:Element is displayed<br/>Fail:Element is not displayed,TimeOut</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: null
+	at generic.BasePage.ElementIsPresent(BasePage.java:50)
+	at POM.AddingPhoneNumberPage.edit(AddingPhoneNumberPage.java:36)
+	at Testscripts.AddingNumberTest.numberadding(AddingNumberTest.java:37)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Testscripts.ProfileTest#profile</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Pass:Element is displayed<br/>Pass:Element is displayed<br/>Pass:Element is displayed</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:32.194Z&apos;
+System info: host: &apos;SRINATH&apos;, ip: &apos;192.168.43.101&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\MYPC~1\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: 6820901f17c6036637e5b43368a24299
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at POM.LogOutPage.logoutapp(LogOutPage.java:33)
+	at Testscripts.ProfileTest.profile(ProfileTest.java:42)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">Testscripts.BUploadTest#uploadingCV</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Pass:Element is displayed<br/>Home page diaplayed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">Testscripts.CompanyFollowTest#followingCompanyProfile</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Home page diaplayed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">Testscripts.DeleteResumeTest#resumeDeletion</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Pass:Element is displayed<br/>Home page diaplayed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">Testscripts.EducationTest#Education</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Pass:Element is displayed<br/>Pass:Element is displayed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">Testscripts.KeySkillTest#keySkillTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Home page diaplayed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">Testscripts.LoginTest#Login</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Home page diaplayed<br/>Pass:Expected page is displayed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">Testscripts.PageTest#testproject</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Pass:Element is displayed<br/>Pass:Element is displayed<br/>Pass:Element is displayed<br/>Pass:Element is displayed<br/>Pass:Element is displayed<br/>Pass:Element is displayed<br/>Home page diaplayed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">Testscripts.QDeletePhotoTest#deletePhoto</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Pass:Element is displayed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

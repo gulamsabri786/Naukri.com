@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="10" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[Home page diaplayed]]>
+    </line>
+    <line>
+      <![CDATA[Home page diaplayed]]>
+    </line>
+    <line>
+      <![CDATA[Pass:Expected page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Pass:Element is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Pass:Element is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Fail:Element is not displayed,TimeOut]]>
+    </line>
+    <line>
+      <![CDATA[Pass:Element is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Home page diaplayed]]>
+    </line>
+    <line>
+      <![CDATA[Pass:Element is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Pass:Element is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Pass:Element is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Pass:Element is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Pass:Element is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Pass:Element is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Home page diaplayed]]>
+    </line>
+    <line>
+      <![CDATA[Pass:Element is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Pass:Element is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Pass:Element is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Home page diaplayed]]>
+    </line>
+    <line>
+      <![CDATA[Pass:Element is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Home page diaplayed]]>
+    </line>
+    <line>
+      <![CDATA[Pass:Element is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Pass:Element is displayed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="607284" started-at="2018-06-25T08:31:53Z" finished-at="2018-06-25T08:42:00Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="607284" started-at="2018-06-25T08:31:53Z" finished-at="2018-06-25T08:42:00Z">
+      <class name="Testscripts.EducationTest">
+        <test-method status="PASS" signature="openAppication()[pri:0, instance:Testscripts.EducationTest@1a8a8f7c]" name="openAppication" is-config="true" duration-ms="16783" started-at="2018-06-25T08:41:02Z" finished-at="2018-06-25T08:41:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAppication -->
+        <test-method status="PASS" signature="Education()[pri:0, instance:Testscripts.EducationTest@1a8a8f7c]" name="Education" duration-ms="40584" started-at="2018-06-25T08:41:19Z" finished-at="2018-06-25T08:41:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Pass:Element is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Pass:Element is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Education -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:Testscripts.EducationTest@1a8a8f7c]" name="closeApplication" is-config="true" duration-ms="1350" started-at="2018-06-25T08:41:59Z" finished-at="2018-06-25T08:42:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Education status=SUCCESS method=EducationTest.Education()[pri:0, instance:Testscripts.EducationTest@1a8a8f7c] output=Pass:Element is displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- Testscripts.EducationTest -->
+      <class name="Testscripts.ProfileTest">
+        <test-method status="PASS" signature="openAppication()[pri:0, instance:Testscripts.ProfileTest@7a187f14]" name="openAppication" is-config="true" duration-ms="15969" started-at="2018-06-25T08:38:04Z" finished-at="2018-06-25T08:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAppication -->
+        <test-method status="FAIL" signature="profile()[pri:0, instance:Testscripts.ProfileTest@7a187f14]" name="profile" duration-ms="44323" started-at="2018-06-25T08:38:20Z" finished-at="2018-06-25T08:39:04Z">
+          <exception class="org.openqa.selenium.ElementNotVisibleException">
+            <message>
+              <![CDATA[element not visible
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'
+System info: host: 'SRINATH', ip: '192.168.43.101', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\MYPC~1\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: 6820901f17c6036637e5b43368a24299]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'
+System info: host: 'SRINATH', ip: '192.168.43.101', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\MYPC~1\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: 6820901f17c6036637e5b43368a24299
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy9.click(Unknown Source)
+at POM.LogOutPage.logoutapp(LogOutPage.java:33)
+at Testscripts.ProfileTest.profile(ProfileTest.java:42)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Pass:Element is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Pass:Element is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Pass:Element is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- profile -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:Testscripts.ProfileTest@7a187f14]" name="closeApplication" is-config="true" duration-ms="2521" started-at="2018-06-25T08:39:04Z" finished-at="2018-06-25T08:39:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=profile status=FAILURE method=ProfileTest.profile()[pri:0, instance:Testscripts.ProfileTest@7a187f14] output=Pass:Element is displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- Testscripts.ProfileTest -->
+      <class name="Testscripts.CompanyFollowTest">
+        <test-method status="PASS" signature="openAppication()[pri:0, instance:Testscripts.CompanyFollowTest@6f195bc3]" name="openAppication" is-config="true" duration-ms="17074" started-at="2018-06-25T08:39:06Z" finished-at="2018-06-25T08:39:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAppication -->
+        <test-method status="PASS" signature="followingCompanyProfile()[pri:0, instance:Testscripts.CompanyFollowTest@6f195bc3]" name="followingCompanyProfile" duration-ms="27957" started-at="2018-06-25T08:39:24Z" finished-at="2018-06-25T08:39:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Home page diaplayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- followingCompanyProfile -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:Testscripts.CompanyFollowTest@6f195bc3]" name="closeApplication" is-config="true" duration-ms="1211" started-at="2018-06-25T08:39:52Z" finished-at="2018-06-25T08:39:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=followingCompanyProfile status=SUCCESS method=CompanyFollowTest.followingCompanyProfile()[pri:0, instance:Testscripts.CompanyFollowTest@6f195bc3] output=Home page diaplayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- Testscripts.CompanyFollowTest -->
+      <class name="Testscripts.PageTest">
+        <test-method status="PASS" signature="openAppication()[pri:0, instance:Testscripts.PageTest@307f6b8c]" name="openAppication" is-config="true" duration-ms="17906" started-at="2018-06-25T08:36:58Z" finished-at="2018-06-25T08:37:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAppication -->
+        <test-method status="PASS" signature="testproject()[pri:0, instance:Testscripts.PageTest@307f6b8c]" name="testproject" duration-ms="46672" started-at="2018-06-25T08:37:16Z" finished-at="2018-06-25T08:38:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Pass:Element is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Pass:Element is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Pass:Element is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Pass:Element is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Pass:Element is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Pass:Element is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Home page diaplayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testproject -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:Testscripts.PageTest@307f6b8c]" name="closeApplication" is-config="true" duration-ms="1243" started-at="2018-06-25T08:38:02Z" finished-at="2018-06-25T08:38:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testproject status=SUCCESS method=PageTest.testproject()[pri:0, instance:Testscripts.PageTest@307f6b8c] output=Pass:Element is displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- Testscripts.PageTest -->
+      <class name="Testscripts.DeleteResumeTest">
+        <test-method status="PASS" signature="openAppication()[pri:0, instance:Testscripts.DeleteResumeTest@51e2adc7]" name="openAppication" is-config="true" duration-ms="15014" started-at="2018-06-25T08:39:53Z" finished-at="2018-06-25T08:40:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAppication -->
+        <test-method status="PASS" signature="resumeDeletion()[pri:0, instance:Testscripts.DeleteResumeTest@51e2adc7]" name="resumeDeletion" duration-ms="52623" started-at="2018-06-25T08:40:08Z" finished-at="2018-06-25T08:41:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Pass:Element is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Home page diaplayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- resumeDeletion -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:Testscripts.DeleteResumeTest@51e2adc7]" name="closeApplication" is-config="true" duration-ms="1375" started-at="2018-06-25T08:41:00Z" finished-at="2018-06-25T08:41:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=resumeDeletion status=SUCCESS method=DeleteResumeTest.resumeDeletion()[pri:0, instance:Testscripts.DeleteResumeTest@51e2adc7] output=Pass:Element is displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- Testscripts.DeleteResumeTest -->
+      <class name="Testscripts.LoginTest">
+        <test-method status="PASS" signature="openAppication()[pri:0, instance:Testscripts.LoginTest@467aecef]" name="openAppication" is-config="true" duration-ms="17683" started-at="2018-06-25T08:32:49Z" finished-at="2018-06-25T08:33:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAppication -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:Testscripts.LoginTest@467aecef]" name="Login" duration-ms="29447" started-at="2018-06-25T08:33:07Z" finished-at="2018-06-25T08:33:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Home page diaplayed]]>
+            </line>
+            <line>
+              <![CDATA[Pass:Expected page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:Testscripts.LoginTest@467aecef]" name="closeApplication" is-config="true" duration-ms="2521" started-at="2018-06-25T08:33:36Z" finished-at="2018-06-25T08:33:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=LoginTest.Login()[pri:0, instance:Testscripts.LoginTest@467aecef] output=Home page diaplayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- Testscripts.LoginTest -->
+      <class name="Testscripts.KeySkillTest">
+        <test-method status="PASS" signature="openAppication()[pri:0, instance:Testscripts.KeySkillTest@3dfc5fb8]" name="openAppication" is-config="true" duration-ms="19129" started-at="2018-06-25T08:31:53Z" finished-at="2018-06-25T08:32:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAppication -->
+        <test-method status="PASS" signature="keySkillTest()[pri:0, instance:Testscripts.KeySkillTest@3dfc5fb8]" name="keySkillTest" duration-ms="34850" started-at="2018-06-25T08:32:12Z" finished-at="2018-06-25T08:32:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Home page diaplayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- keySkillTest -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:Testscripts.KeySkillTest@3dfc5fb8]" name="closeApplication" is-config="true" duration-ms="1741" started-at="2018-06-25T08:32:47Z" finished-at="2018-06-25T08:32:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=keySkillTest status=SUCCESS method=KeySkillTest.keySkillTest()[pri:0, instance:Testscripts.KeySkillTest@3dfc5fb8] output=Home page diaplayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- Testscripts.KeySkillTest -->
+      <class name="Testscripts.BUploadTest">
+        <test-method status="PASS" signature="openAppication()[pri:0, instance:Testscripts.BUploadTest@2173f6d9]" name="openAppication" is-config="true" duration-ms="15829" started-at="2018-06-25T08:35:53Z" finished-at="2018-06-25T08:36:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAppication -->
+        <test-method status="PASS" signature="uploadingCV()[pri:0, instance:Testscripts.BUploadTest@2173f6d9]" name="uploadingCV" duration-ms="48229" started-at="2018-06-25T08:36:08Z" finished-at="2018-06-25T08:36:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Pass:Element is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Home page diaplayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- uploadingCV -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:Testscripts.BUploadTest@2173f6d9]" name="closeApplication" is-config="true" duration-ms="1214" started-at="2018-06-25T08:36:57Z" finished-at="2018-06-25T08:36:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=uploadingCV status=SUCCESS method=BUploadTest.uploadingCV()[pri:0, instance:Testscripts.BUploadTest@2173f6d9] output=Pass:Element is displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- Testscripts.BUploadTest -->
+      <class name="Testscripts.AddingNumberTest">
+        <test-method status="PASS" signature="openAppication()[pri:0, instance:Testscripts.AddingNumberTest@7e2d773b]" name="openAppication" is-config="true" duration-ms="16099" started-at="2018-06-25T08:34:41Z" finished-at="2018-06-25T08:34:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAppication -->
+        <test-method status="FAIL" signature="numberadding()[pri:0, instance:Testscripts.AddingNumberTest@7e2d773b]" name="numberadding" duration-ms="53500" started-at="2018-06-25T08:34:57Z" finished-at="2018-06-25T08:35:50Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.fail(Assert.java:103)
+at generic.BasePage.ElementIsPresent(BasePage.java:50)
+at POM.AddingPhoneNumberPage.edit(AddingPhoneNumberPage.java:36)
+at Testscripts.AddingNumberTest.numberadding(AddingNumberTest.java:37)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Pass:Element is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Fail:Element is not displayed,TimeOut]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- numberadding -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:Testscripts.AddingNumberTest@7e2d773b]" name="closeApplication" is-config="true" duration-ms="2220" started-at="2018-06-25T08:35:50Z" finished-at="2018-06-25T08:35:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=numberadding status=FAILURE method=AddingNumberTest.numberadding()[pri:0, instance:Testscripts.AddingNumberTest@7e2d773b] output=Pass:Element is displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- Testscripts.AddingNumberTest -->
+      <class name="Testscripts.QDeletePhotoTest">
+        <test-method status="PASS" signature="openAppication()[pri:0, instance:Testscripts.QDeletePhotoTest@4d50efb8]" name="openAppication" is-config="true" duration-ms="16415" started-at="2018-06-25T08:33:39Z" finished-at="2018-06-25T08:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAppication -->
+        <test-method status="PASS" signature="deletePhoto()[pri:0, instance:Testscripts.QDeletePhotoTest@4d50efb8]" name="deletePhoto" duration-ms="44339" started-at="2018-06-25T08:33:55Z" finished-at="2018-06-25T08:34:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Pass:Element is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deletePhoto -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:Testscripts.QDeletePhotoTest@4d50efb8]" name="closeApplication" is-config="true" duration-ms="1310" started-at="2018-06-25T08:34:39Z" finished-at="2018-06-25T08:34:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deletePhoto status=SUCCESS method=QDeletePhotoTest.deletePhoto()[pri:0, instance:Testscripts.QDeletePhotoTest@4d50efb8] output=Pass:Element is displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- Testscripts.QDeletePhotoTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
